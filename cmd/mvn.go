@@ -18,7 +18,7 @@ import (
 
 func mvnCmd() *cobra.Command {
 	lockFiles := []string{"maven-lockfile.json"}
-	lockGenCommand := []string{"mvn", "io.github.chains-project:maven-lockfile:5.5.1:generate", "-DlockfileName=maven-lockfile.json"}
+	lockGenCommand := []string{"mvn", "io.github.chains-project:maven-lockfile:5.11.0:generate", "-DlockfileName=maven-lockfile.json"}
 	forced := false
 
 	mvnCmd := &cobra.Command{
